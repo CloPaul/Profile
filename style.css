@@ -1,0 +1,140 @@
+body {
+	width: 100%;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	background-color: #7ed6df;
+	margin: 0;
+}
+
+h1 {
+	color: #4834d4;
+	font-weight: bold;
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #4834d4;
+	font-size: 22px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Helvetica;
+	text-transform: uppercase;
+	letter-spacing: 0px
+}
+
+p {
+	text-justify: justify;
+	color: rgb(30, 30, 30);
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: black;
+}
+
+.button {
+	padding: 9px;
+	border-radius: 5px;
+	background-color: #686de0;
+	box-shadow: 0px 0px 4px #00000073;
+	color: white;
+	transition: all 0.2s;
+	margin: 15px;
+	display: inline-block;
+}
+
+
+.button:hover {
+	background-color: #4c51ba;
+	color: white;
+}
+
+.div-inner {
+	background: white;
+	border-radius: 4px;
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px 10px;
+	box-shadow: -1px -1px 15px 1px #22a6b3;
+	max-width: 900px;
+}
+
+
+.div-profile {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+	position: relative;
+	max-width: 500px;
+	padding: 20px;
+	width: calc(90% - 20px);
+	border-radius: 0 0 50px 50px;
+	transition: all 0.3s;
+
+}
+
+.div-contact {
+	max-width: 500px;
+}
+
+.img-passion {
+	display: block;
+	max-width: 300px;
+	border-radius: 7px;
+	margin: 20px auto;
+}
+
+#img-profile {
+	width: 190px;
+	border-radius: 50%;
+	transition: all 0.3s;
+
+}
+
+#img-profile:hover {
+	transform: rotate(360deg) scale(2);
+	box-shadow: 0 0 80px 1px black;
+}
+
+#button-follow {
+	margin: 5px;
+}
+
+.fa-linkedin {
+	color: #0e76a8;
+	transition: all 0.3s;
+}
+
+.fa-facebook-square {
+	color: #3b5998;
+	transition: all 0.3s;
+}
+
+.fa-linkedin:hover,
+.fa-facebook-square:hover {
+	transform: scale(1.4);
+
+	color: black;
+}
+
+@media(max-width: 760px) {
+	.div-container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.div-container {
+		width: 100%;
+	}
+}
